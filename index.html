@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="all">
+    <title>Pixel Drawin</title>
+</head>
+<body>
+    <h1>Pixel Drawing</h1>
+    
+    <div id='button-container'> 
+        <button class="blackButton" onclick="changeColour('black')">
+            Black
+        </button>
+        <button class="erasorButton" onclick="changeColour('white')">
+            Erasor
+        </button>
+        <button class="grayButton" onclick="changeColour('gray')">Gray</button>
+
+        <button class='resetBtn'>Reset</button>
+    </div>
+    
+    <div id='outerBox'>
+        <div id='container'></div>
+    </div>
+    <script src ="script.js"></script>  
+</body>
+
+</html>
